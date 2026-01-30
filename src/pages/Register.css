@@ -1,0 +1,32 @@
+.register-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--light-bg);
+}
+
+.register-card {
+  width: 380px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.register-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--teal);
+}
+
+.register-button {
+  width: 100%;
+  background-color: var(--teal);
+  color: white;
+  border: none;
+}
+
+.register-button:hover {
+  background-color: #0c5f58;
+}

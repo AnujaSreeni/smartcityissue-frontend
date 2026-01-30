@@ -1,0 +1,54 @@
+.complaint-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.complaint-container h2 {
+  margin-bottom: 6px;
+}
+
+.complaint-subtitle {
+  margin-bottom: 30px;
+  color: var(--text);
+}
+
+.complaint-form {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.complaint-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: var(--dark);
+}
+
+.complaint-form input,
+.complaint-form textarea {
+  margin-top: 6px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  font-size: 14px;
+}
+
+.complaint-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.complaint-form button {
+  align-self: flex-start;
+}
+
+.complaint-msg {
+  margin-top: 16px;
+  color: green;
+}

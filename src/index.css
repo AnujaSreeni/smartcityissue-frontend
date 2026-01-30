@@ -1,0 +1,79 @@
+:root {
+  --teal: #0d9488;
+  --dark-grey: #1f2933;
+  --light-grey: #f5f7fa;
+}
+
+body {
+  background-color: var(--light-grey);
+  color: var(--dark-grey);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.btn-teal {
+  background-color: var(--teal);
+  color: white;
+  border: none;
+}
+
+.btn-teal:hover {
+  background-color: #0f766e;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+/* Smooth UI feel */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Inputs */
+.form-control:focus {
+  border-color: #0f766e;
+  box-shadow: 0 0 0 0.15rem rgba(15, 118, 110, 0.25);
+}
+
+/* Cards hover */
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+/* Buttons */
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Smooth transitions everywhere */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Card hover effect */
+.card,
+.dashboard-card,
+.complaint-card,
+.login-card,
+.register-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover,
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.12);
+}
+
+/* Button interaction */
+button:hover {
+  transform: translateY(-1px);
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
